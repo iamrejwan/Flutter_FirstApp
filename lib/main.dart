@@ -8,8 +8,8 @@ void main() {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                const Color.fromARGB(255, 46, 2, 222),
-                Color.fromARGB(255, 35, 1, 108),
+                const Color.fromARGB(255, 110, 1, 39),
+                Color.fromARGB(255, 160, 4, 53),
               ],
               begin: Alignment.topRight,
               end: Alignment.bottomRight,
@@ -17,7 +17,7 @@ void main() {
           ),
           child: Center(
             child: Text(
-              'Hello Dart!',
+              'Hello Flutter!',
               style: TextStyle(color: Colors.white, fontSize: 35),
             ),
           ),
